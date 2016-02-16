@@ -15,8 +15,10 @@ let g:ctrlp_cmd = 'CtrlP'
 set swapfile
 set dir=~/tmp
 set nowrap
-map <C-j> :bnext<CR>
-map <C-k> :bprev<CR>
+nnoremap ; :
+nnoremap : ;
+map <C-j> ;bnext<CR>
+map <C-k> ;bprev<CR>
 
 fun! <SID>StripTrailingWhitespaces()
     let l = line(".")
