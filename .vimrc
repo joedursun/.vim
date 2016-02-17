@@ -17,6 +17,7 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 set swapfile
 set dir=~/tmp
 set nowrap
+set backspace=indent,eol,start
 nnoremap ; :
 nnoremap : ;
 map <C-j> ;bnext<CR>
