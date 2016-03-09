@@ -1,6 +1,8 @@
 colorscheme obsidian2
 set guifont=Menlo\ Regular:h15
 set splitright
+set laststatus=2
+set statusline+=%F
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
