@@ -22,8 +22,8 @@ set nowrap
 set backspace=indent,eol,start
 nnoremap ; :
 nnoremap : ;
-map <C-j> ;bnext<CR>
-map <C-k> ;bprev<CR>
+map <C-j> ;bnext!<CR>
+map <C-k> ;bprev!<CR>
 
 fun! <SID>StripTrailingWhitespaces()
     let l = line(".")
