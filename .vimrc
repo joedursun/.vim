@@ -22,6 +22,8 @@ set nowrap
 set backspace=indent,eol,start
 nnoremap ; :
 nnoremap : ;
+nnoremap v V
+nnoremap V v
 map <C-j> ;bnext!<CR>
 map <C-k> ;bprev!<CR>
 map <C-h> 20zh " Scroll to the left
