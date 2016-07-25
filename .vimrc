@@ -17,6 +17,7 @@ set swapfile
 set dir=~/tmp
 set nowrap
 set backspace=indent,eol,start
+set incsearch
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
