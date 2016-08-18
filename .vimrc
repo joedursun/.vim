@@ -17,6 +17,8 @@ set dir=~/tmp
 set nowrap
 set backspace=indent,eol,start
 set incsearch
+set synmaxcol=128
+set lazyredraw
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
