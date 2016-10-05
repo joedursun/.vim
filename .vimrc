@@ -31,6 +31,7 @@ nnoremap ; :
 nnoremap : ;
 nnoremap v V
 nnoremap V v
+nnoremap <leader>c :noh<CR>
 
 map <C-j> ;bnext!<CR>
 map <C-k> ;bprev!<CR>
