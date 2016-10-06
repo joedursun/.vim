@@ -16,6 +16,7 @@ set swapfile
 set dir=~/tmp
 set nowrap
 set backspace=indent,eol,start
+set nohlsearch
 set incsearch
 set lazyredraw
 set mouse=r " disable mouse clicks so copying from terminal still works
@@ -35,9 +36,6 @@ nnoremap ; :
 nnoremap : ;
 nnoremap v V
 nnoremap V v
-
-" clear highlighted search terms
-nnoremap <leader>k :noh<CR>
 
 " vim-rails keymappings
 nnoremap <leader>ec :Econtroller
