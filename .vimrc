@@ -39,6 +39,10 @@ nnoremap V v
 " clear highlighted search terms
 nnoremap <leader>k :noh<CR>
 
+" vim-rails keymappings
+nnoremap <leader>ec :Econtroller
+nnoremap <leader>em :Emodel
+
 map <C-j> ;bnext!<CR>
 map <C-k> ;bprev!<CR>
 map <C-h> 20zh " Scroll to the left
