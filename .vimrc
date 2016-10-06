@@ -37,6 +37,7 @@ map <C-j> ;bnext!<CR>
 map <C-k> ;bprev!<CR>
 map <C-h> 20zh " Scroll to the left
 map <C-l> 20zl " Scroll to the right
+map <Leader> <Plug>(easymotion-prefix)
 
 fun! <SID>StripTrailingWhitespaces()
     let l = line(".")
