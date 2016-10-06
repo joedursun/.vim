@@ -36,6 +36,7 @@ nnoremap ; :
 nnoremap : ;
 nnoremap v V
 nnoremap V v
+nnoremap <enter> o<esc>
 
 " vim-rails keymappings
 nnoremap <leader>ec :Econtroller<space>
