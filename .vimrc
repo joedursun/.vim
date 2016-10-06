@@ -38,8 +38,8 @@ nnoremap v V
 nnoremap V v
 
 " vim-rails keymappings
-nnoremap <leader>ec :Econtroller
-nnoremap <leader>em :Emodel
+nnoremap <leader>ec :Econtroller<space>
+nnoremap <leader>em :Emodel<space>
 
 map <C-j> ;bnext!<CR>
 map <C-k> ;bprev!<CR>
