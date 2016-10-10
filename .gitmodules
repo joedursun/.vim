@@ -10,9 +10,6 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "bundle/vim-slim"]
-	path = bundle/vim-slim
-	url = https://github.com/tpope/vim-slim
 [submodule "bundle/ag"]
 	path = bundle/ag
 	url = https://github.com/rking/ag.vim
