@@ -31,3 +31,6 @@
 [submodule "bundle/vim-easymotion"]
 	path = bundle/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
+[submodule "bundle/vim-slim"]
+	path = bundle/vim-slim
+	url = git@github.com:slim-template/vim-slim.git
