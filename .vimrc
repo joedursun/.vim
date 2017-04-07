@@ -31,6 +31,8 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 
 " silver searcher (Ag.vim)
 let g:ag_working_path_mode="r"
+cnoreabbrev Ag Ag!
+nnoremap <Leader>a :Ag!<Space>
 
 nnoremap ; :
 nnoremap : ;
