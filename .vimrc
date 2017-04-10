@@ -11,7 +11,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set runtimepath^=~/.vim/bundle/ag
-set number
+set relativenumber
 set swapfile
 set dir=~/tmp
 set nowrap
@@ -43,6 +43,17 @@ nnoremap <enter> o<esc>
 " vim-rails keymappings
 nnoremap <leader>ec :Econtroller<space>
 nnoremap <leader>em :Emodel<space>
+
+" switch to buffer number n
+nnoremap <leader>1 1<C-^>
+nnoremap <leader>2 2<C-^>
+nnoremap <leader>3 3<C-^>
+nnoremap <leader>4 4<C-^>
+nnoremap <leader>5 5<C-^>
+nnoremap <leader>6 6<C-^>
+nnoremap <leader>7 7<C-^>
+nnoremap <leader>8 8<C-^>
+nnoremap <leader>9 9<C-^>
 
 map <C-j> ;bnext!<CR>
 map <C-k> ;bprev!<CR>
