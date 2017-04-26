@@ -54,6 +54,7 @@ nnoremap <leader>6 6<C-^>
 nnoremap <leader>7 7<C-^>
 nnoremap <leader>8 8<C-^>
 nnoremap <leader>9 9<C-^>
+nnoremap <leader>p <C-w>w
 
 map <C-j> ;bnext!<CR>
 map <C-k> ;bprev!<CR>
