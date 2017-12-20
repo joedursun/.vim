@@ -56,6 +56,8 @@ nnoremap <leader>8 8<C-^>
 nnoremap <leader>9 9<C-^>
 nnoremap <leader>p <C-w>w
 
+inoremap jj <ESC>
+
 map <C-j> ;bnext!<CR>
 map <C-k> ;bprev!<CR>
 map <C-h> 20zh " Scroll to the left
