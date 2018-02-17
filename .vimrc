@@ -14,6 +14,8 @@ set runtimepath^=~/.vim/bundle/ag
 set relativenumber
 set swapfile
 set dir=~/tmp
+set backupdir=~/tmp
+set undodir=~/tmp
 set nowrap
 set backspace=indent,eol,start
 set nohlsearch
@@ -73,6 +75,7 @@ fun! <SID>StripTrailingWhitespaces()
     let l = line(".")
     let c = col(".")
     %s/\s\+$//e
+    %s/$//e
     call cursor(l, c)
 endfun
 
