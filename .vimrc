@@ -22,6 +22,8 @@ set nohlsearch
 set incsearch
 set lazyredraw
 set mouse=r " disable mouse clicks so copying from terminal still works
+set ffs=unix,dos
+set ff=unix
 
 let mapleader = " "
 
@@ -75,7 +77,8 @@ fun! <SID>StripTrailingWhitespaces()
     let l = line(".")
     let c = col(".")
     %s/\s\+$//e
-    %s/$//e
+    %s///e
+    retab
     call cursor(l, c)
 endfun
 
