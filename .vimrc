@@ -10,7 +10,6 @@ set statusline+=%F
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set runtimepath^=~/.vim/bundle/ag
 set relativenumber
 set swapfile
 set dir=~/tmp
